@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Сортировка массива</h2>
+
+<p>Метод sort() сортирует массив по алфавиту.</p>
+
+<button onclick="myFunction()">Попробовать</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Банан", "Апельсин", "Яблоко", "Манго"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+  fruits.sort();
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>
